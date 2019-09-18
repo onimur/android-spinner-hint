@@ -1,26 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
   ~ /*
-  ~  * Created by Murillo Comino on 09/02/19 11:57
+  ~  * Created by Murillo Comino on 18/09/19 14:42
   ~  * Github: github.com/MurilloComino
   ~  * StackOverFlow: pt.stackoverflow.com/users/128573
   ~  * Email: murillo_comino@hotmail.com
   ~  *
   ~  * Copyright (c) 2019 . All rights reserved.
-  ~  * Last modified 09/02/19 11:13
+  ~  * Last modified 18/09/19 14:24
   ~  */
   -->
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.example.muril.spinner_hint.MainActivity">
+    android:layout_height="match_parent">
 
     <RelativeLayout
         android:layout_width="wrap_content"
-        android:layout_height="18dp">
+        android:layout_height="18dp"
+        tools:ignore="UselessParent">
 
         <Spinner
             android:id="@+id/sp_main"
@@ -44,7 +43,8 @@
                 android:background="#FFFFFF"
                 android:gravity="start"
                 android:text="SELECT..."
-                android:textSize="16sp" />
+                android:textSize="16sp"
+                tools:ignore="HardcodedText" />
 
             <View
                 android:layout_width="0dp"

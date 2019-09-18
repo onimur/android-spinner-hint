@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
   ~ /*
-  ~  * Created by Murillo Comino on 09/02/19 11:57
+  ~  * Created by Murillo Comino on 18/09/19 14:42
   ~  * Github: github.com/MurilloComino
   ~  * StackOverFlow: pt.stackoverflow.com/users/128573
   ~  * Email: murillo_comino@hotmail.com
   ~  *
   ~  * Copyright (c) 2019 . All rights reserved.
-  ~  * Last modified 09/02/19 11:17
+  ~  * Last modified 18/09/19 14:26
   ~  */
   -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.spinner_hint">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.onimus.spinnerwithhint">
 
     <application
         android:allowBackup="true"
@@ -20,8 +21,9 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <activity android:name="com.onimus.spinnerwithhint.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

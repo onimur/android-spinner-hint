@@ -1,16 +1,16 @@
 /*
  *
- *  * Created by Murillo Comino on 18/09/19 14:15
+ *  * Created by Murillo Comino on 18/09/19 14:42
  *  * Github: github.com/MurilloComino
  *  * StackOverFlow: pt.stackoverflow.com/users/128573
  *  * Email: murillo_comino@hotmail.com
  *  *
  *  * Copyright (c) 2019 . All rights reserved.
- *  * Last modified 18/09/19 13:58
+ *  * Last modified 18/09/19 14:26
  *
  */
 
-package com.example.spinner_hint;
+package com.onimus.spinnerwithhint;
 
 import android.content.Context;
 import androidx.test.platform.app.InstrumentationRegistry;
@@ -30,6 +30,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.example.spinner_hint", appContext.getPackageName());
+        assertEquals("com.onimus.spinnerwithhint", appContext.getPackageName());
     }
 }
