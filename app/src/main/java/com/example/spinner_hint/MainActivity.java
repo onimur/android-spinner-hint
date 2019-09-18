@@ -1,18 +1,18 @@
 /*
  *
- *  * Created by Murillo Comino on 09/02/19 11:57
+ *  * Created by Murillo Comino on 18/09/19 14:15
  *  * Github: github.com/MurilloComino
  *  * StackOverFlow: pt.stackoverflow.com/users/128573
  *  * Email: murillo_comino@hotmail.com
  *  *
  *  * Copyright (c) 2019 . All rights reserved.
- *  * Last modified 09/02/19 11:17
+ *  * Last modified 18/09/19 14:15
  *
  */
 
 package com.example.spinner_hint;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         ll_hint_spinner = findViewById(R.id.ll_hint_spinner);
         sp_main = findViewById(R.id.sp_main);
 
-        ArrayAdapter<String> ArrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item, getResources().getStringArray(R.array.arrays));
+        ArrayAdapter<String> ArrayAdapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, getResources().getStringArray(R.array.arrays));
         sp_main.setAdapter(ArrayAdapter);
 
         //Action after clicking LinearLayout / Spinner;

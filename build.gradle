@@ -1,12 +1,12 @@
 /*
  *
- *  * Created by Murillo Comino on 09/02/19 11:57
+ *  * Created by Murillo Comino on 18/09/19 14:15
  *  * Github: github.com/MurilloComino
  *  * StackOverFlow: pt.stackoverflow.com/users/128573
  *  * Email: murillo_comino@hotmail.com
  *  *
  *  * Copyright (c) 2019 . All rights reserved.
- *  * Last modified 09/02/19 11:17
+ *  * Last modified 18/09/19 13:41
  *
  */
 
@@ -19,7 +19,7 @@ buildscript {
         
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.3.1'
+        classpath 'com.android.tools.build:gradle:3.5.0'
         
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
